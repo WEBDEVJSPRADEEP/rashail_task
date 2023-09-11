@@ -1,0 +1,60 @@
+.Add_btn span {
+  position: relative;
+  bottom: 48px;
+  left: 1010px;
+  height: 28px;
+  width: 120px;
+  background-color: #1388cd;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category_div {
+  margin-top: 25px;
+  border-radius: 4px;
+  height: 27px;
+  width: 150px;
+  border-radius: 4px;
+  background-color: rgb(249, 249, 250);
+  border: 1px solid black;
+}
+.category {
+  border: transparent;
+  height: 24px;
+  width: 145px;
+  text-align: center;
+}
+.Product_search_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin-top: -29px;
+}
+
+@media screen and (max-width: 1300px) {
+  .Add_btn span {
+    bottom: 35px;
+    left: 920px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .Add_btn span {
+    bottom: 35px;
+    left: 820px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .Add_btn span {
+    bottom: 35px;
+    left: 790px;
+  }
+}
+@media screen and (max-width: 1142px) {
+  .Add_btn span {
+    bottom: 35px;
+    left: 765px;
+  }
+}

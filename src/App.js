@@ -1,23 +1,19 @@
 import React from "react";
-import Home from "./Components/Home";
-import Products from "./Components/Products";
-import AboutUs from "./Components/AboutUs";
-import Cart from "./Components/Cart";
-import Navbar from "./Components/Navbar";
+import Order from "./Components/Order";
+import Enquiry from "./Components/Enquiry";
+import Product from "./Components/Product";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
-    <>
+    <div>
       <BrowserRouter>
-        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Products" element={<Products />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Cart" element={<Cart />} />
+          <Route path="/" element={<Order />} />
+          <Route path="/Enquiry" element={<Enquiry />} />
+          <Route path="/Product" element={<Product />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }

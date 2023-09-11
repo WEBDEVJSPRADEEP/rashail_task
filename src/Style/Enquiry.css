@@ -1,0 +1,46 @@
+.calender_2,
+.calender_1 {
+  border-radius: 4px;
+  height: 25px;
+  width: 130px;
+  background-color: #fff;
+  border: 1px solid black;
+  text-align: center;
+  /* justify-content: space-between; */
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.calender_1 {
+  margin-left: 420px;
+}
+
+.calender_2 input {
+  height: 22px;
+  width: 18px;
+  border: transparent;
+  text-align: left;
+}
+.calender_1 input {
+  height: 22px;
+  width: 18px;
+  border: transparent;
+}
+.calender_2 span {
+  height: 22px;
+  width: 100px;
+}
+.calender_1 span {
+  height: 22px;
+  width: 100px;
+}
+@media screen and (max-width: 1300px) {
+  .calender_1 {
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .calender_1 {
+    margin-left: 280px;
+  }
+}
